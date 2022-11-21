@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px
+}
+
+.mostrar_promos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    color: red;
+
+}
+
+#btn {
+    background: linear-gradient(0deg, rgba(223, 18, 18, 1) 0%, rgba(29, 32, 221, 1) 100%);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
